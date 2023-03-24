@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign Up Page"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Username："
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/signup_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Password："
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/signup_user_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Password Again："
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:id="@+id/signup_user_password_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/signup_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Register"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:background="@color/colorBlue"
+
+            ></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
