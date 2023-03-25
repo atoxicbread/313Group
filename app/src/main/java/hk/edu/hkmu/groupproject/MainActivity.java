@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.welcome);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //实现界面跳转，从登录界面跳转到注册界面
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);//跳转界面
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
