@@ -25,19 +25,19 @@ public class HomeActivity extends AppCompatActivity {
 
         Search.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, SearchActivity.class);//跳转界面
+                Intent intent = new Intent(HomeActivity.this, AllResultActivity.class);//跳转界面
                 startActivity(intent);
             }
         });
         Comment.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, SearchActivity.class);//跳转界面
+                Intent intent = new Intent(HomeActivity.this, CommentActivity.class);//跳转界面
                 startActivity(intent);
             }
         });
         Language.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, SearchActivity.class);//跳转界面
+                Intent intent = new Intent(HomeActivity.this, LanguageActivity.class);//跳转界面
                 startActivity(intent);
             }
         });

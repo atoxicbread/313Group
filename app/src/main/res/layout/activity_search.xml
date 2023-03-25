@@ -9,15 +9,38 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Page"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose The District:"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"/>
+        <Spinner
+            android:id="@+id/optionsSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:entries="@array/options_array"
+            android:layout_marginTop="20dp"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search Page"
-        android:textSize="25dp"
-        android:gravity="center"
-        android:textColor="@color/colorBlack"
-        android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Search"/>
+
+
 
 
     </LinearLayout>

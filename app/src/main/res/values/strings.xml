@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">login</string>
+    <string-array name="options_array">
+        <item>All</item>
+        <item>Central and Western</item>
+        <item>Eastern</item>
+        <item>Islands</item>
+        <item>Kowloon City</item>
+        <item>Kwai Tsing</item>
+        <item>Kwun Tong</item>
+        <item>North</item>
+        <item>Sai Kung</item>
+        <item>Sha Tin Distict</item>
+        <item>Sham Shui Po</item>
+        <item>Southern</item>
+        <item>Tai Po</item>
+        <item>Tsuen Wan</item>
+        <item>Wan Chai</item>
+        <item>Wong Tai Sin</item>
+        <item>Yau Tsim Mong</item>
+        <item>Yuen Long</item>
+
+
+    </string-array>
 </resources>
