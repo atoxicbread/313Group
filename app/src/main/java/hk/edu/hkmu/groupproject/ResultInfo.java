@@ -4,32 +4,35 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class ResultInfo {
-    public static String Title_en = "Title_en";
-    public static String District_en = "District_en";
-    public static String Route_en = "Route_en";
-    public static String HowToAccess_en = "HowToAccess_en";
-    public static String MapURL_en = "MapURL_en";
-    public static String Latitude = "Latitude";
-    public static String Longitude = "Longitude";
+    public static String title_en = "Title_en"; // used in "new String []..." in MainActivity program
+    public static String district_en = "District_en"; // used in "new String []..." in MainActivity program
+    public static String route_en = "Route_en"; // used in "new String []..." in MainActivity program
+    public static String howToAccess_en = "HowToAccess_en"; // used in "new String []..." in MainActivity program
+    public static String mapURL_en = "MapURL_en"; // used in "new String []..." in MainActivity program
+    public static String latitude = "Latitude"; // used in "new String []..." in MainActivity program
+    public static String longitude = "Longitude"; // used in "new String []..." in MainActivity program
 
+    // "contactList" variable used for storing all contact that retrieved from JSON
+    // it is used in JsonHandlerThread and also MainActivity program
+    public static ArrayList<HashMap<String, String>> contactList = new ArrayList<>();
 
-    public static ArrayList<HashMap<String, String>> resultList = new ArrayList<>();
-
+    // addContact is a function
     // Creates and add contact to contact list
-    public static void addContact(String title, String district, String route, String howToAccess, String mapURL,
-                                  String latitude, String longitude) {
+    // x4 input, representing name, email, address and mobile
+    public static void addContact(String Title_en, String District_en, String Route_en, String HowToAccess_en
+            , String MapURL_en, String Latitude, String Longitude) {
         // Create contact
         HashMap<String, String> contact = new HashMap<>();
-        contact.put(Title_en, title);
-        contact.put(District_en, district);
-        contact.put(Route_en, route);
-        contact.put(HowToAccess_en, howToAccess);
-        contact.put(MapURL_en, mapURL);
-        contact.put(Latitude, latitude);
-        contact.put(Longitude, longitude);
+        contact.put(title_en, Title_en);
+        contact.put(district_en, District_en);
+        contact.put(route_en, Route_en);
+        contact.put(howToAccess_en, HowToAccess_en);
+        contact.put(mapURL_en, MapURL_en);
+        contact.put(latitude, Latitude);
+        contact.put(longitude, Longitude);
 
         // Add contact to contact list
-        resultList.add(contact);
+        contactList.add(contact);
     }
 
 }
