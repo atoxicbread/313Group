@@ -111,13 +111,13 @@ public class CommentActivity extends AppCompatActivity {
     }
 
     public void saveCardData(String testpref, String msg){
-        String cardId = generateUniqueId(); // 生成唯一的卡片ID
+        String cardId = generateUniqueId();
         String cardData = testpref + "," + msg + "," + System.currentTimeMillis();
         editor.putString(cardId, cardData);
         editor.apply();
     }
 
     private String generateUniqueId() {
-        return UUID.randomUUID().toString(); // 生成随机的UUID作为卡片ID
+        return UUID.randomUUID().toString();
     }
 }
