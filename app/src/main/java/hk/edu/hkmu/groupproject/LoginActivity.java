@@ -2,7 +2,9 @@ package hk.edu.hkmu.groupproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -12,7 +14,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
-
+    public static SharedPreferences login_pref;
     EditText user_name;
     EditText user_password;
 
@@ -34,6 +36,9 @@ public class LoginActivity extends AppCompatActivity {
 
         mysql = new Mysql(this,"Userinfo",null,1);
         db = mysql.getReadableDatabase();
+
+        login_pref = getSharedPreferences("login", Context.MODE_PRIVATE);
+        SharedPreferences.Editor login_editor = login_pref.edit();
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,6 +53,8 @@ public class LoginActivity extends AppCompatActivity {
                     Intent intent = null;
                     intent = new Intent(LoginActivity.this, HomeActivity.class);
                     startActivity(intent);
+                    login_editor.putString("login", storage_username);
+                    login_editor.commit();
                 }
                 else {
                     if (storage_username.equals("admin") && storage_userpassword.equals("admin")) {
@@ -55,6 +62,8 @@ public class LoginActivity extends AppCompatActivity {
                         Intent intent = null;
                         intent = new Intent(LoginActivity.this, HomeActivity.class);
                         startActivity(intent);
+                        login_editor.putString("login", storage_username);
+                        login_editor.commit();
                     }
                     else{
                         Toast.makeText(getApplicationContext(), "Invalid username or password！", Toast.LENGTH_SHORT).show();
