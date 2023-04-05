@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    main-->
+    <string name="app_name">健身步道</string>
+    <string name="welcome">欢迎</string>
+    <!--    login-->
+    <string name="username">用戶名：</string>
+    <string name="password">密码：</string>
+    <string name="usernamei">用戶名</string>
+    <string name="passwordi">密码</string>
+
+    <string name="login">登入</string>
+    <string name="signup">注册</string>
+    <!--    sign-->
+    <string name="SignUpPage">注册页</string>
+    <string name="passworda">再次输入密码：</string>
+    <string name="register">注册</string>
+    <!--    home-->
+    <string name="HomePage">主页</string>
+    <string name="search">搜索</string>
+    <string name="comment">评论区</string>
+    <string name="ChangeLanguage">改变语言</string>
+    <string name="logout">登出</string>
+    <!--comment-->
+    <string name="commentbox" >在这里写下你的评论!</string>
+    <string name="send" >传送</string>
+<!--    search-->
+    <string name="searchpage">搜索页面</string>
+    <string name="googlemap">谷歌地图</string>
+    <string name="location1">龙虾湾乡村小径</string>
+    <string name="view1">观看次数：4.5/5</string>
+    <string name="diffculty1">难度：2.5/5</string>
+    <string name="length1">长度：2.4km</string>
+    <string name="estimat1">预计：2 小时 30 分钟</string>
+
+    <string name="location2">钓鱼翁郊游径</string>
+    <string name="view2">观看次数：4.5/5</string>
+    <string name="diffculty2">难度：3/5</string>
+    <string name="length2">长度：6.3km</string>
+    <string name="estimat2">预计：3 小时</string>
+
+    <string name="location3">船湾水库郊游径</string>
+    <string name="view3">观看：4/5</string>
+    <string name="diffculty3">难度：4/5</string>
+    <string name="length3">长度：15.6km</string>
+    <string name="estimat3">估计：7 小时</string>
+
+    <string name="location4">流水乡郊游径</string>
+    <string name="view4">视图：3.5/5</string>
+    <string name="diffculty4">难度：2.5/5</string>
+    <string name="length4">长度：4.4km</string>
+    <string name="estimat4">预计：2 小时</string>
+
+    <string name="location5">大潭郊游径</string>
+    <string name="view5">观看次数：3.5/5</string>
+    <string name="diffculty5">难度：2.5/5</string>
+    <string name="length5">长度：4.8km</string>
+    <string name="estimat5">预计：2 小时 30 分钟</string>
+
+    <string name="location6">马鞍山郊游径</string>
+    <string name="view6">观看：3/5</string>
+    <string name="diffculty6">难度：2/5</string>
+    <string name="length6">长度：4.6km</string>
+    <string name="estimat6">预计：2 小时</string>
+
+    <string name="location7">南大屿郊游径</string>
+    <string name="view7">观看：4/5</string>
+    <string name="diffculty7">难度：2/5</string>
+    <string name="length7">长度：2.3km</string>
+    <string name="estimat7">预计：1 小时</string>
+
+    <string name="location8">康柏乡村小径</string>
+    <string name="view8">观看：3/5</string>
+    <string name="diffculty8">难度：2/5</string>
+    <string name="length8">长度：3.8km</string>
+    <string name="estimat8">预计：3 小时</string>
+
+    <string name="location9">饭楼乡间小径</string>
+    <string name="view9">观看：4/5</string>
+    <string name="diffculty9">难度：2/5</string>
+    <string name="length9">长度：2.3km</string>
+    <string name="estimat9">预计：1 小时</string>
+
+    <string name="location10">奇马湾乡村小径</string>
+    <string name="view10">观看次数：2/5</string>
+    <string name="diffculty10">难度：3.5/5</string>
+    <string name="length10">长度：17.1km</string>
+    <string name="estimat10">预计：8 小时</string>
+
+    <string name="location11">龙门乡村步道</string>
+    <string name="view11">观看次数：2/5</string>
+    <string name="diffculty11">难度：3.5/5</string>
+    <string name="length11">长度：4.9km</string>
+    <string name="estimat11">预计：2 小时 30 分钟</string>
+
+    <string name="location12">印洲塘郊游径</string>
+    <string name="view12">观看：4/5</string>
+    <string name="diffculty12">难度：4/5</string>
+    <string name="length12">长度：13.1km</string>
+    <string name="estimat12">预计：5 小时 30 分钟</string>
+
+    <string name="location13">老富头郊游径</string>
+    <string name="view13">观看：4/5</string>
+    <string name="diffculty13">难度：3.5/5</string>
+    <string name="length13">长度：10.2km</string>
+    <string name="estimat13">预计：4 小时</string>
+
+    <string name="location14">元村古道郊游径</string>
+    <string name="view14">观看：3/5</string>
+    <string name="diffculty14">难度：3.5/5</string>
+    <string name="length14">长度：12km</string>
+    <string name="estimat14">预计：5 小时 30 分</string>
+
+    <string name="location15">鹿湖郊游径</string>
+    <string name="view15">观看次数：2/5</string>
+    <string name="diffculty15">难度：2/5</string>
+    <string name="length15">长度：5.3km</string>
+    <string name="estimat15">预计：3 小时</string>
+
+    <string name="location16">石壁郊游径</string>
+    <string name="view16">观看：2/5</string>
+    <string name="diffculty16">难度：2.5/5</string>
+    <string name="length16">长度：5.2km</string>
+    <string name="estimat16">预计：2 小时</string>
+
+    <string name="location17">长上郊游径</string>
+    <string name="view17">视图：1.5/5</string>
+    <string name="diffculty17">难度：2.5/5</string>
+    <string name="length17">长度：4.2km</string>
+    <string name="estimat17">预计：2 小时</string>
+
+    <string name="location18">海下湾仔海运坊</string>
+    <string name="view18">观看：4/5</string>
+    <string name="diffculty18">难度：4/5</string>
+    <string name="length18">长度：13.4km</string>
+    <string name="estimat18">预计：7 小时</string>
+
+    <string name="location19">甲龙古径郊游径</string>
+    <string name="view19">视图：1/5</string>
+    <string name="diffculty19">难度：2/5</string>
+    <string name="length19">长度：1.9km</string>
+    <string name="estimat19">预计：1 小时</string>
+
+    <string name="location20">虎地郊游径</string>
+    <string name="view20">观看：3/5</string>
+    <string name="diffculty20">难度：2.5/5</string>
+    <string name="length20">长度：4.1km</string>
+    <string name="estimat20">预计：2 小时</string>
+
+    <string name="location21">林涌郊游径</string>
+    <string name="view21">视图：1.5/5</string>
+    <string name="diffculty21">难度：2.5/5</string>
+    <string name="length21">长度：5.3km</string>
+    <string name="estimat21">预计：2 小时 30 分钟</string>
+
+    <string name="location22">尼拉山郊游径</string>
+    <string name="view22">观看：4/5</string>
+    <string name="diffculty22">难度：2.5/5</string>
+    <string name="length22">长度：4.9km</string>
+    <string name="estimat22">预计：2 小时</string>
+
+    <string name="location23">鹤头郊游径</string>
+    <string name="view23">观看次数：2.5/5</string>
+    <string name="diffculty23">难度：1.5/5</string>
+    <string name="length23">长度：2.5km</string>
+    <string name="estimat23">估计：1 小时</string>
+
+    <string name="location24">荆山郊游径</string>
+    <string name="view24">观看：4/5</string>
+    <string name="diffculty24">难度：3/5</string>
+    <string name="length24">长度：8.2km</string>
+    <string name="estimat24">预计：3 小时</string>
+
+    <string name="location25">大潭郊游径</string>
+    <string name="view25">观看次数：3.5/5</string>
+    <string name="diffculty25">难度：1.5/5</string>
+    <string name="length25">长度：6.9km</string>
+    <string name="estimat25">预计：2 小时 45 分钟</string>
+
+    <string name="location26">北潭郊游径</string>
+    <string name="view26">观看次数：2/5</string>
+    <string name="diffculty26">难度：1.5/5</string>
+    <string name="length26">长度：1.9km</string>
+    <string name="estimat26">预计：1 小时</string>
+
+    <string name="location27">地塘仔郊游径</string>
+    <string name="view27">视图：1/5</string>
+    <string name="diffculty27">难度：1.5/5</string>
+    <string name="length27">长度：2km</string>
+    <string name="estimat27">预计：45 分钟</string>
+
+    <string name="location28">乌蛟腾郊游径</string>
+    <string name="view28">观看：3/5</string>
+    <string name="diffculty28">难度：2/5</string>
+    <string name="length28">长度：2.4km</string>
+    <string name="estimat28">预计：1 小时 15 分钟</string>
+
+    <string name="location29">黄龙坑郊游径</string>
+    <string name="view29">观看：2/5</string>
+    <string name="diffculty29">难度：3.5/5</string>
+    <string name="length29">长度：2.2km</string>
+    <string name="estimat29">预计：1 小时 45 分钟</string>
+</resources>

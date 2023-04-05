@@ -1,0 +1,204 @@
+<resources>
+<!--    main-->
+    <string name="app_name">Fitness Walking Tracks</string>
+    <string name="welcome">Welcome</string>
+<!--    login-->
+    <string name="username">Username：</string>
+    <string name="password">Password:</string>
+    <string name="usernamei">username</string>
+    <string name="passwordi">password</string>
+
+    <string name="login">Login</string>
+    <string name="signup">sign up</string>
+<!--    sign-->
+    <string name="SignUpPage">Sign Up Page</string>
+    <string name="passworda">Password Again：</string>
+    <string name="register">Register</string>
+<!--    home-->
+    <string name="HomePage">Home Page</string>
+    <string name="search">Search</string>
+    <string name="comment">Comment Board</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="logout">Logout</string>
+<!--comment-->
+    <string name="commentbox" >You can write something here!</string>
+    <string name="send" >send</string>
+<!--    search-->
+    <string name="searchpage">Search Page</string>
+    <string name="googlemap">Google map</string>
+    <string name="location1">Lung Ha Wan Country Trail</string>
+    <string name="view1">View: 4.5/5</string>
+    <string name="diffculty1">Diffculty: 2.5/5</string>
+    <string name="length1">Length: 2.4km</string>
+    <string name="estimat1">Estimat: 2h 30min</string>
+
+    <string name="location2">High Junk Peak Country Trail</string>
+    <string name="view2">View: 4.5/5</string>
+    <string name="diffculty2">Diffculty: 3/5</string>
+    <string name="length2">Length: 6.3km</string>
+    <string name="estimat2">Estimat: 3h</string>
+
+    <string name="location3">Plover Cove Reservoir Country Trail</string>
+    <string name="view3">View: 4/5</string>
+    <string name="diffculty3">Diffculty: 4/5</string>
+    <string name="length3">Length: 15.6km</string>
+    <string name="estimat3">Estimat: 7h</string>
+
+    <string name="location4">Lau Shui Heung Country Trail</string>
+    <string name="view4">View: 3.5/5</string>
+    <string name="diffculty4">Diffculty: 2.5/5</string>
+    <string name="length4">Length: 4.4km</string>
+    <string name="estimat4">Estimat: 2h</string>
+
+    <string name="location5">Tai Tam Country Trail</string>
+    <string name="view5">View: 3.5/5</string>
+    <string name="diffculty5">Diffculty: 2.5/5</string>
+    <string name="length5">Length: 4.8km</string>
+    <string name="estimat5">Estimat: 2h30min</string>
+
+    <string name="location6">Ma On Shan Country Trail</string>
+    <string name="view6">View: 3/5</string>
+    <string name="diffculty6">Diffculty: 2/5</string>
+    <string name="length6">Length: 4.6km</string>
+    <string name="estimat6">Estimat: 2h</string>
+
+    <string name="location7">South Lantau Country Trail</string>
+    <string name="view7">View: 4/5</string>
+    <string name="diffculty7">Diffculty: 2/5</string>
+    <string name="length7">Length: 2.3km</string>
+    <string name="estimat7">Estimat: 1h</string>
+
+    <string name="location8">Hong Pak Country Trail</string>
+    <string name="view8">View: 3/5</string>
+    <string name="diffculty8">Diffculty: 2/5</string>
+    <string name="length8">Length: 3.8km</string>
+    <string name="estimat8">Estimat: 3h</string>
+
+    <string name="location9">Fan Lau Country Trail</string>
+    <string name="view9">View: 4/5</string>
+    <string name="diffculty9">Diffculty: 2/5</string>
+    <string name="length9">Length: 2.3km</string>
+    <string name="estimat9">Estimat: 1h</string>
+
+    <string name="location10">Chi Ma Wan Country Trail</string>
+    <string name="view10">View: 2/5</string>
+    <string name="diffculty10">Diffculty: 3.5/5</string>
+    <string name="length10">Length: 17.1km</string>
+    <string name="estimat10">Estimat: 8h</string>
+
+    <string name="location11">Lung Mun Country Trail</string>
+    <string name="view11">View: 2/5</string>
+    <string name="diffculty11">Diffculty: 3.5/5</string>
+    <string name="length11">Length: 4.9km</string>
+    <string name="estimat11">Estimat: 2h30min</string>
+
+    <string name="location12">Double Haven Country Trail</string>
+    <string name="view12">View: 4/5</string>
+    <string name="diffculty12">Diffculty: 4/5</string>
+    <string name="length12">Length: 13.1km</string>
+    <string name="estimat12">Estimat: 5h30min</string>
+
+    <string name="location13">Lo Fu Tau Country Trail</string>
+    <string name="view13">View: 4/5</string>
+    <string name="diffculty13">Diffculty: 3.5/5</string>
+    <string name="length13">Length: 10.2km</string>
+    <string name="estimat13">Estimat: 4h</string>
+
+    <string name="location14">Yuen Tsuen Ancient Trail Country Trail</string>
+    <string name="view14">View: 3/5</string>
+    <string name="diffculty14">Diffculty: 3.5/5</string>
+    <string name="length14">Length: 12km</string>
+    <string name="estimat14">Estimat: 5h30min</string>
+
+    <string name="location15">Luk Wu Country Trail</string>
+    <string name="view15">View: 2/5</string>
+    <string name="diffculty15">Diffculty: 2/5</string>
+    <string name="length15">Length: 5.3km</string>
+    <string name="estimat15">Estimat: 3h</string>
+
+    <string name="location16">Shek Pik Country Trail</string>
+    <string name="view16">View: 2/5</string>
+    <string name="diffculty16">Diffculty: 2.5/5</string>
+    <string name="length16">Length: 5.2km</string>
+    <string name="estimat16">Estimat: 2h</string>
+
+    <string name="location17">Cheung Sheung Country Trail</string>
+    <string name="view17">View: 1.5/5</string>
+    <string name="diffculty17">Diffculty: 2.5/5</string>
+    <string name="length17">Length: 4.2km</string>
+    <string name="estimat17">Estimat: 2h</string>
+
+    <string name="location18">Hoi Ha Wan Tsai, Ocean Point</string>
+    <string name="view18">View: 4/5</string>
+    <string name="diffculty18">Diffculty: 4/5</string>
+    <string name="length18">Length: 13.4km</string>
+    <string name="estimat18">Estimat: 7h</string>
+
+    <string name="location19">Kap Lung Ancient Trail Country Trail</string>
+    <string name="view19">View: 1/5</string>
+    <string name="diffculty19">Diffculty: 2/5</string>
+    <string name="length19">Length: 1.9km</string>
+    <string name="estimat19">Estimat: 1h</string>
+
+    <string name="location20">Fu Tei Country Trail</string>
+    <string name="view20">View: 3/5</string>
+    <string name="diffculty20">Diffculty: 2.5/5</string>
+    <string name="length20">Length: 4.1km</string>
+    <string name="estimat20">Estimat: 2h</string>
+
+    <string name="location21">Lam Chung Country Trail</string>
+    <string name="view21">View: 1.5/5</string>
+    <string name="diffculty21">Diffculty: 2.5/5</string>
+    <string name="length21">Length: 5.3km</string>
+    <string name="estimat21">Estimat: 2h30min</string>
+
+    <string name="location22">Nei Lak Shan Country Trail</string>
+    <string name="view22">View: 4/5</string>
+    <string name="diffculty22">Diffculty: 2.5/5</string>
+    <string name="length22">Length: 4.9km</string>
+    <string name="estimat22">Estimat: 2h</string>
+
+    <string name="location23">Hok Tau Country Trail</string>
+    <string name="view23">View: 2.5/5</string>
+    <string name="diffculty23">Diffculty: 1.5/5</string>
+    <string name="length23">Length: 2.5km</string>
+    <string name="estimat23">Estimat: 1h</string>
+
+    <string name="location24">Keung Shan Country Trail</string>
+    <string name="view24">View: 4/5</string>
+    <string name="diffculty24">Diffculty: 3/5</string>
+    <string name="length24">Length: 8.2km</string>
+    <string name="estimat24">Estimat: 3h</string>
+
+    <string name="location25">Tai Tan Country Trail</string>
+    <string name="view25">View: 3.5/5</string>
+    <string name="diffculty25">Diffculty: 1.5/5</string>
+    <string name="length25">Length: 6.9km</string>
+    <string name="estimat25">Estimat: 2h45min</string>
+
+    <string name="location26">Pak Tam Country Trail</string>
+    <string name="view26">View: 2/5</string>
+    <string name="diffculty26">Diffculty: 1.5/5</string>
+    <string name="length26">Length: 1.9km</string>
+    <string name="estimat26">Estimat: 1h</string>
+
+    <string name="location27">Tei Tong Tsai Country Trail</string>
+    <string name="view27">View: 1/5</string>
+    <string name="diffculty27">Diffculty: 1.5/5</string>
+    <string name="length27">Length: 2km</string>
+    <string name="estimat27">Estimat: 45min</string>
+
+    <string name="location28">Wu Kau Tang Country Trail</string>
+    <string name="view28">View: 3/5</string>
+    <string name="diffculty28">Diffculty: 2/5</string>
+    <string name="length28">Length: 2.4km</string>
+    <string name="estimat28">Estimat: 1h15min</string>
+
+    <string name="location29">Wong Lung Hang Country Trail</string>
+    <string name="view29">View: 2/5</string>
+    <string name="diffculty29">Diffculty: 3.5/5</string>
+    <string name="length29">Length: 2.2km</string>
+    <string name="estimat29">Estimat: 1h45min</string>
+</resources>
+
+

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    main-->
+    <string name="app_name">健身步道</string>
+    <string name="welcome">歡迎</string>
+    <!--    login-->
+    <string name="username">用戶名：</string>
+    <string name="password">密碼：</string>
+    <string name="usernamei">用戶名</string>
+    <string name="passwordi">密碼</string>
+
+    <string name="login">登入</string>
+    <string name="signup">註冊</string>
+    <!--    sign-->
+    <string name="SignUpPage">註冊頁</string>
+    <string name="passworda">再次輸入密碼：</string>
+    <string name="register">註冊</string>
+    <!--    home-->
+    <string name="HomePage">主頁</string>
+    <string name="search">搜索</string>
+    <string name="comment">評論區</string>
+    <string name="ChangeLanguage">改變語言</string>
+    <string name="logout">登出</string>
+    <!--comment-->
+    <string name="commentbox" >在這裏寫下你的評論!</string>
+    <string name="send" >傳送</string>
+<!--    search-->
+    <string name="searchpage">搜索頁面</string>
+    <string name="googlemap">谷歌地圖</string>
+    <string name="location1">龍蝦灣郊遊徑</string>
+    <string name="view1">觀看次數：4.5/5</string>
+    <string name="diffculty1">難度：2.5/5</string>
+    <string name="length1">長度：2.4km</string>
+    <string name="estimat1">預計：2 小時 30 分鐘</string>
+
+    <string name="location2">釣魚翁郊遊徑</string>
+    <string name="view2">觀看次數：4.5/5</string>
+    <string name="diffculty2">難度：3/5</string>
+    <string name="length2">長度：6.3km</string>
+    <string name="estimat2">預計：3 小時</string>
+
+    <string name="location3">船灣水庫郊遊徑</string>
+    <string name="view3">觀看：4/5</string>
+    <string name="diffculty3">難度：4/5</string>
+    <string name="length3">長度：15.6km</string>
+    <string name="estimat3">預計：7 小時</string>
+
+    <string name="location4">流水鄉郊遊徑</string>
+    <string name="view4">視圖：3.5/5</string>
+    <string name="diffculty4">難度：2.5/5</string>
+    <string name="length4">長度：4.4km</string>
+    <string name="estimat4">預計：2 小時</string>
+
+    <string name="location5">大潭郊遊徑</string>
+    <string name="view5">觀看次數：3.5/5</string>
+    <string name="diffculty5">難度：2.5/5</string>
+    <string name="length5">長度：4.8km</string>
+    <string name="estimat5">預計：2 小時 30 分鐘</string>
+
+    <string name="location6">馬鞍山郊遊徑</string>
+    <string name="view6">觀看：3/5</string>
+    <string name="diffculty6">難度：2/5</string>
+    <string name="length6">長度：4.6km</string>
+    <string name="estimat6">預計：2 小時</string>
+
+    <string name="location7">南大嶼郊遊徑</string>
+    <string name="view7">觀看：4/5</string>
+    <string name="diffculty7">難度：2/5</string>
+    <string name="length7">長度：2.3km</string>
+    <string name="estimat7">估計：1 小時</string>
+
+    <string name="location8">康柏鄉村小徑</string>
+    <string name="view8">觀看：3/5</string>
+    <string name="diffculty8">難度：2/5</string>
+    <string name="length8">長度：3.8km</string>
+    <string name="estimat8">預計：3 小時</string>
+
+    <string name="location9">番樓郊遊徑</string>
+    <string name="view9">觀看：4/5</string>
+    <string name="diffculty9">難度：2/5</string>
+    <string name="length9">長度：2.3km</string>
+    <string name="estimat9">估計：1 小時</string>
+
+    <string name="location10">芝麻灣郊遊徑</string>
+    <string name="view10">觀看次數：2/5</string>
+    <string name="diffculty10">難度：3.5/5</string>
+    <string name="length10">長度：17.1km</string>
+    <string name="estimat10">預計：8 小時</string>
+
+    <string name="location11">龍門郊遊徑</string>
+    <string name="view11">觀看次數：2/5</string>
+    <string name="diffculty11">難度：3.5/5</string>
+    <string name="length11">長度：4.9km</string>
+    <string name="estimat11">預計：2 小時 30 分鐘</string>
+
+    <string name="location12">印洲塘郊遊徑</string>
+    <string name="view12">觀看：4/5</string>
+    <string name="diffculty12">難度：4/5</string>
+    <string name="length12">長度：13.1km</string>
+    <string name="estimat12">預計：5 小時 30 分</string>
+
+    <string name="location13">老富頭郊遊徑</string>
+    <string name="view13">觀看：4/5</string>
+    <string name="diffculty13">難度：3.5/5</string>
+    <string name="length13">長度：10.2km</string>
+    <string name="estimat13">預計：4 小時</string>
+
+    <string name="location14">元村古道郊遊徑</string>
+    <string name="view14">觀看：3/5</string>
+    <string name="diffculty14">難度：3.5/5</string>
+    <string name="length14">長度：12km</string>
+    <string name="estimat14">預計：5 小時 30 分</string>
+
+    <string name="location15">鹿湖郊遊徑</string>
+    <string name="view15">觀看次數：2/5</string>
+    <string name="diffculty15">難度：2/5</string>
+    <string name="length15">長度：5.3km</string>
+    <string name="estimat15">預計：3 小時</string>
+
+    <string name="location16">石壁郊遊徑</string>
+    <string name="view16">觀看：2/5</string>
+    <string name="diffculty16">難度：2.5/5</string>
+    <string name="length16">長度：5.2km</string>
+    <string name="estimat16">預計：2 小時</string>
+
+    <string name="location17">長上郊遊徑</string>
+    <string name="view17">視圖：1.5/5</string>
+    <string name="diffculty17">難度：2.5/5</string>
+    <string name="length17">長度：4.2km</string>
+    <string name="estimat17">預計：2 小時</string>
+
+    <string name="location18">海下灣仔海運坊</string>
+    <string name="view18">觀看：4/5</string>
+    <string name="diffculty18">難度：4/5</string>
+    <string name="length18">長度：13.4km</string>
+    <string name="estimat18">預計：7 小時</string>
+
+    <string name="location19">甲龍古徑郊遊徑</string>
+    <string name="view19">視圖：1/5</string>
+    <string name="diffculty19">難度：2/5</string>
+    <string name="length19">長度：1.9km</string>
+    <string name="estimat19">預計：1 小時</string>
+
+    <string name="location20">虎地郊遊徑</string>
+    <string name="view20">觀看：3/5</string>
+    <string name="diffculty20">難度：2.5/5</string>
+    <string name="length20">長度：4.1km</string>
+    <string name="estimat20">預計：2 小時</string>
+
+    <string name="location21">林湧郊遊徑</string>
+    <string name="view21">視圖：1.5/5</string>
+    <string name="diffculty21">難度：2.5/5</string>
+    <string name="length21">長度：5.3km</string>
+    <string name="estimat21">預計：2 小時 30 分鐘</string>
+
+    <string name="location22">尼拉山郊遊徑</string>
+    <string name="view22">觀看：4/5</string>
+    <string name="diffculty22">難度：2.5/5</string>
+    <string name="length22">長度：4.9km</string>
+    <string name="estimat22">預計：2 小時</string>
+
+    <string name="location23">鶴頭郊遊徑</string>
+    <string name="view23">觀看次數：2.5/5</string>
+    <string name="diffculty23">難度：1.5/5</string>
+    <string name="length23">長度：2.5km</string>
+    <string name="estimat23">估計：1 小時</string>
+
+    <string name="location24">荊山郊遊徑</string>
+    <string name="view24">觀看：4/5</string>
+    <string name="diffculty24">難度：3/5</string>
+    <string name="length24">長度：8.2km</string>
+    <string name="estimat24">預計：3 小時</string>
+
+    <string name="location25">大潭郊遊徑</string>
+    <string name="view25">觀看次數：3.5/5</string>
+    <string name="diffculty25">難度：1.5/5</string>
+    <string name="length25">長度：6.9km</string>
+    <string name="estimat25">預計：2 小時 45 分鐘</string>
+
+    <string name="location26">北潭郊遊徑</string>
+    <string name="view26">觀看次數：2/5</string>
+    <string name="diffculty26">難度：1.5/5</string>
+    <string name="length26">長度：1.9km</string>
+    <string name="estimat26">預計：1 小時</string>
+
+    <string name="location27">地塘仔郊遊徑</string>
+    <string name="view27">視圖：1/5</string>
+    <string name="diffculty27">難度：1.5/5</string>
+    <string name="length27">長度：2km</string>
+    <string name="estimat27">預計：45 分鐘</string>
+
+    <string name="location28">烏蛟騰郊遊徑</string>
+    <string name="view28">觀看：3/5</string>
+    <string name="diffculty28">難度：2/5</string>
+    <string name="length28">長度：2.4km</string>
+    <string name="estimat28">預計：1 小時 15 分鐘</string>
+
+    <string name="location29">黃龍坑郊遊徑</string>
+    <string name="view29">觀看：2/5</string>
+    <string name="diffculty29">難度：3.5/5</string>
+    <string name="length29">長度：2.2km</string>
+    <string name="estimat29">預計：1 小時 45 分鐘</string>
+</resources>
+
