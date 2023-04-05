@@ -55,10 +55,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(intent);
                     login_editor.putString("login", storage_username);
                     login_editor.commit();
-<<<<<<< HEAD:MyApplication/app/src/main/java/com/example/myapplication/LoginActivity.java
                     finishAffinity();
-=======
->>>>>>> fff26fc53ad2ff61e8471b9662abaeba263a21cb:app/src/main/java/hk/edu/hkmu/groupproject/LoginActivity.java
                 }
                 else {
                     if (storage_username.equals("admin") && storage_userpassword.equals("admin")) {
@@ -68,10 +65,7 @@ public class LoginActivity extends AppCompatActivity {
                         startActivity(intent);
                         login_editor.putString("login", storage_username);
                         login_editor.commit();
-<<<<<<< HEAD:MyApplication/app/src/main/java/com/example/myapplication/LoginActivity.java
                         finishAffinity();
-=======
->>>>>>> fff26fc53ad2ff61e8471b9662abaeba263a21cb:app/src/main/java/hk/edu/hkmu/groupproject/LoginActivity.java
                     }
                     else{
                         Toast.makeText(getApplicationContext(), "Invalid username or password！", Toast.LENGTH_SHORT).show();
